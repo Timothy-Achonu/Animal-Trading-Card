@@ -90,3 +90,8 @@ main > section {
   font-size: 0.6rem;
 }
 
+@media(max-width : 500px) {
+    main {
+        max-width: 300px ;
+    }
+}

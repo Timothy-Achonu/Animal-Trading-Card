@@ -36,7 +36,7 @@ main > section {
 .left-side-section {
     border-right: 2px solid white;
 }
-.left-side-section div{
+.left-side-section .header-footer{
     height: 40px;
     text-align: center;
     padding: 10px;
@@ -58,7 +58,7 @@ main > section {
 .right-side-section {
     border-left: 2px solid white;
 }
-.right-side-section > div {
+.right-side-section > .header-footer {
     font-family: 'Anton', sans-serif;
     font-size: 1rem;
     text-align: center;

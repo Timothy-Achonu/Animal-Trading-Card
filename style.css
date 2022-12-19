@@ -58,12 +58,26 @@ main > section {
 .right-side-section {
     border-left: 2px solid white;
 }
-.right-side-section > .header-footer {
+.right-side-section .header-footer {
     font-family: 'Anton', sans-serif;
     font-size: 1rem;
     text-align: center;
     padding: 10px;
     box-shadow: inset 0 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+.right-side-section > .buy {
+    font-family: 'Anton', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    box-shadow: inset 0 0 3px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color: #F36E21;
+    border: none;
+    color: white;
+}
+.right-side-section > .buy:hover {
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.3);
 }
 .right-side-section ul {
     display: flex;
